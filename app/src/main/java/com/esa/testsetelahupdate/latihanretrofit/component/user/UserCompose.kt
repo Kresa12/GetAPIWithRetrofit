@@ -25,7 +25,7 @@ fun UserCompose(
 
         LazyColumn {
             items(users) { user ->
-                Text(text = "${user.name} - ${user.email}")
+                Text(text = "${user.name} - ${user.id}")
             }
         }
 

@@ -4,6 +4,6 @@ import com.esa.testsetelahupdate.latihanretrofit.data.model.UserModel
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("users")
+    @GET("products")
     suspend fun getUsers(): List<UserModel>
 }
